@@ -14,7 +14,7 @@ def get_details():
         time = timezone.time_zones_for_number(parsed_number)
 
         result.set(
-            f"Country/State: {country}\n"
+            f"Country: {country}\n"
             f"Carrier: {sim}\n"
             f"Timezone: {time}"
         )
@@ -24,7 +24,7 @@ def get_details():
 # Main window
 root = tk.Tk()
 root.title("Phone Number Location Finder")
-root.geometry("400x300")
+root.geometry("400x320")
 root.resizable(False, False)
 
 # Title
