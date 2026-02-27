@@ -28,7 +28,7 @@ root.geometry("400x300")
 root.resizable(False, False)
 
 # Title
-tk.Label(root, text="Phone Number Location Finder", font=("Arial", 14, "bold")).pack(pady=10)
+tk.Label(root, text="Phone Number Location Finder",font=("Arial", 14, "bold")).pack(pady=10)
 
 # Entry box
 entry = tk.Entry(root, font=("Arial", 12), width=25)
